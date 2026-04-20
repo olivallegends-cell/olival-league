@@ -10,7 +10,7 @@ export default async function SideNav() {
     return (
         <div className="sticky top-0 bg-gray-800 text-white w-full h-screen p-4 flex flex-col justify-between">
             <div>
-                <h1 className="text-white text-2xl font-bold pb-2 cursor-default">Grupeta do Futebol</h1>
+                <h1 className="text-white text-2xl font-bold pb-2 cursor-default">Olival</h1>
                 <NavLinks />
             </div>
             {session?.user && (

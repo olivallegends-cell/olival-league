@@ -10,7 +10,7 @@ export default function MobileHamburger() {
     return (
         <>
             <div className="sm:hidden sticky top-0 z-30 bg-gray-800 text-white flex items-center justify-between px-4 py-3">
-                <div className="text-lg font-semibold">Grupeta do Futebol</div>
+                <div className="text-lg font-semibold">Olival</div>
                 <button aria-label="Open menu" onClick={() => setOpen(true)} className="p-2 rounded bg-gray-700 hover:bg-gray-600">
                     <Menu className="w-6 h-6" />
                 </button>

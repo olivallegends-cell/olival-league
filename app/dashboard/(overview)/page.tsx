@@ -12,7 +12,7 @@ export default async function Dashboard() {
         <div>
             <div className="flex justify-between items-center w-full sm:pt-0 px-6 pt-4">
                 <div className="gap-2 flex flex-col items-center">
-                    <h1>Grupeta do futebol</h1>
+                    <h1>Olival</h1>
                     <Link href="/dashboard/games"
                         className="bg-slate-400 text-white rounded-md px-2 py-1 sm:hidden">
                         Ver Jogos
